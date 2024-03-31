@@ -1,0 +1,8 @@
+<!ELEMENT students (student+)>
+<!ELEMENT student (name, number, city, rollNo, presentCount, absentCount)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT division (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT presentCount (#PCDATA)>
+<!ELEMENT absentCount (#PCDATA)>

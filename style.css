@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Login page- attendance monitoring sys*/
+.heading{
+    width: 100%;
+    font-size: 48px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+/*login page - SDM College*/
+#school{
+    font-size: 48px;
+    color: rgb(241, 31, 31);
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+/*align the image in login page*/   
+.login{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    grid-gap: 20px;
+    margin: 20px;
+
+}
+
+.image{
+    width: 50%;
+    height: 80%;
+    margin-left: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image img{
+    width: 60%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+/*login page - light blue colour- */
+.right{
+    background-color: rgb(189, 211, 218);
+    border-radius: 30px;
+}
+
+/* login page username pass*/
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;  
+}
+
+#form input{
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+  #submit:hover{
+      background-color: rgb(23, 129, 69);
+      color: black;
+      font-family: 'Times New Roman', Times, serif;
+      border-radius: 5px;
+  }
+
+  /*login page- teacher login*/
+  
+  .login_head{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 38px;
+    background-color: rgb(29, 65, 196);
+    color: white;
+    text-align: center;
+    padding: 9px;
+    border-radius: 08px;   
+}
+
+
+/*student page - table*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    }
+    
+
+th,td {
+padding: 15px;
+text-align: center;
+}
+
+
+tr > th {
+    background-color: rgb(163, 4, 73);
+    color: white;
+    }
+
+.studentData{
+    width: 100%;
+    background-color: rgb(91, 11, 118);
+    padding: 15px;
+
+}
+
+
+
+.td6 > button{
+    margin-right: 10px;
+    color: white;
+    border-radius: 5px;  
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+} 
+
+.td6 > button:nth-child(1){
+    background-color: green;
+}
+.td6 > button:nth-child(2){
+    background-color: red;
+}
+
+
+
